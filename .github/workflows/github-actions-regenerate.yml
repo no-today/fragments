@@ -1,0 +1,57 @@
+name: Hexo Regenerate
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  GITHUB_NAME: no-today
+  GITHUB_EMAIL: no.today@outlook.com
+  ARCHIVE_BRANCH: archive
+
+jobs:
+  hexo-archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch code
+        uses: actions/checkout@v3
+
+      - name: Node.js Setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies and generate
+        run: |
+          yarn install
+          npx hexo g
+
+      # backup to `archive` branch
+      - name: Push the "public" directory to the archive branch
+        run: |
+          git config --local user.name "${{ env.GITHUB_NAME }}"
+          git config --local user.email "${{ env.GITHUB_EMAIL }}"
+          git checkout --orphan ${{ env.ARCHIVE_BRANCH }}
+          git rm -r --cached .
+          git add public/
+          git commit -m 'archive:'
+          git push -f --set-upstream origin ${{ env.ARCHIVE_BRANCH }}
+
+#      - name: Archive the "public" directory
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: public
+#          path: public
+#          retention-days: 5
+
+      # ssh connect and exec command
+      # document: https://github.com/appleboy/ssh-action
+      - name: SSH Deploy
+        uses: appleboy/ssh-action@v0.1.10
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 22
+          script: sh release.fragments.sh
