@@ -13,3 +13,7 @@ ls -l | awk '{print $9}'
 ```shell
 node qiniu-upload.js
 ```
+
+```shell
+sed -i '.bak' 's#record-fragments.assets#https://cdn.cathub.ink/record-fragments#g' record-fragments.md
+```
