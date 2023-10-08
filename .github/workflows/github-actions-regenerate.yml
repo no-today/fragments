@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - '！attached/**'
 
 env:
   GITHUB_NAME: no-today
