@@ -15,5 +15,5 @@ node qiniu-upload.js
 ```
 
 ```shell
-sed -i '.bak' 's#record-fragments.assets#https://cdn.cathub.ink/record-fragments#g' record-fragments.md
+sed -i '.bak' 's#assets#https://cdn.cathub.ink/record-fragments#g' record-fragments.md
 ```
