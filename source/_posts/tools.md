@@ -18,7 +18,7 @@ hidden: true
 - [I Know what your download](https://iknowwhatyoudownload.com/en/peer/)
 - [ZeroTier](https://www.zerotier.com/)
 
-## chrome extends
+## chrome extension
 
 - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate-web-p/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
 - [Wikiwand: Wikipedia Modernized](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
