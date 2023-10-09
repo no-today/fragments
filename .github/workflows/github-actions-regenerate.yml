@@ -27,6 +27,7 @@ jobs:
       - name: Install dependencies and generate
         run: |
           yarn install
+          npx hexo clean
           npx hexo g
 
       # backup to `archive` branch
