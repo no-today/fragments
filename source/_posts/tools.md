@@ -1,7 +1,8 @@
 ---
 title: 工具
-date: 2023-01-01
+date: 0000-00-00
 top: 2
+hidden: true
 ---
 
 ## dev tools
