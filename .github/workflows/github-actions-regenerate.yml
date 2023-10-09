@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '！attached/**'
+      - '!attached/**'
 
 env:
   GITHUB_NAME: no-today
