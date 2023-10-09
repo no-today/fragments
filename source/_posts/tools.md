@@ -1,6 +1,6 @@
 ---
 title: 工具
-date: 0000-00-00
+date: 2020-01-01
 top: 2
 hidden: true
 ---
@@ -18,10 +18,11 @@ hidden: true
 - [I Know what your download](https://iknowwhatyoudownload.com/en/peer/)
 - [ZeroTier](https://www.zerotier.com/)
 
-## chrome
+## chrome extends
 
 - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate-web-p/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
 - [Wikiwand: Wikipedia Modernized](https://chrome.google.com/webstore/detail/wikiwand-wikipedia-modern/emffkefkbkpkgpdeeooapgaicgmcbolj)
+- [AdBlack](https://chrome.google.com/webstore/detail/adblock-%E2%80%94-best-ad-blocker/gighmmpiobklfepjocnamgkkbiglidom)
 - [Enhanced GitHub](https://chrome.google.com/webstore/detail/enhanced-github/anlikcnbgdeidpacdbdljnabclhahhmd/related)
 - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif)
 

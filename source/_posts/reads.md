@@ -1,6 +1,6 @@
 ---
 title: 阅读
-date: 0000-00-00
+date: 2020-01-01
 top: 3
 hidden: true
 ---
@@ -17,6 +17,8 @@ hidden: true
     - [x] 中国近代史-上册
     - [x] 中国近代史-下册
 
+---
+
 ## II
 
 - [x] 被讨厌的勇气
@@ -30,16 +32,22 @@ hidden: true
 - [ ] 精益创业
 - [ ] 一人公司
 
+---
+
 ## III
 
 - [ ] 算法（第4版）
 - [ ] 架构整洁之道
 - [x] 凤凰架构
 
+---
+
 ## IV
 
 - [ ] What if？那些古怪又让人忧心的问题
 - [ ] How to 如何不切实际地解决实际问题
 - [x] 回忆爱玛侬
+
+---
 
 **[Downloads](https://github.com/no-today/books)**
