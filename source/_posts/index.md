@@ -4,10 +4,11 @@ date: 2020-01-01
 top: 1
 ---
 
-record me.
+record my knowledge.
 
 <!--more-->
 
-- [工具](/tools)：好用的工具
-- [摘抄](/quotes)：摘抄引用一些有意思的句子
-- [阅读](/reads)：感兴趣的书籍
+- [好用的工具](/tools)
+- [感兴趣的书籍](/reads)
+- [阅读了的好文](/articles)
+- [摘抄引用一些有意思的句子](/quotes)
