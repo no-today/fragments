@@ -1,5 +1,5 @@
 ---
-title: 摘抄
+title: 摘抄引用一些有意思的句子
 date: 2020-01-01
 top: 1
 hidden: true

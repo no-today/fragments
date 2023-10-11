@@ -11,7 +11,7 @@ ls -l | awk '{print $9}'
 ```
 
 ```shell
-node qiniu-upload.js
+node qiniu_upload_to.js
 ```
 
 ```shell
