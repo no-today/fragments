@@ -2,6 +2,7 @@
 title: 阅读了的好文
 date: 2020-01-01
 top: 4
+hidden: true
 ---
 
 ## dev
