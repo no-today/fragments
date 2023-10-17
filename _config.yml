@@ -109,4 +109,4 @@ lazyload:
   onlypost: false # optional
   loadingImg: /images/loading.gif # optional eg ./images/loading.gif
   isSPA: false # optional
-  preloadRatio: 3 # optional, default is 1
+  preloadRatio: 10 # optional, default is 1
