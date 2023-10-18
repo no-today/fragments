@@ -32,6 +32,10 @@ top: 1
 
 - [lofi.cafe - lofi music 🎧](https://www.lofi.cafe/)
 
+## 人格测试
+
+- [16Personalities](https://www.16personalities.com/ch) - 16型人格测试
+
 ## chrome extension
 
 - [沉浸式翻译](https://chrome.google.com/webstore/detail/immersive-translate-web-p/bpoadfkcbjbfhfodiogcnhhhpibjhbnh)
