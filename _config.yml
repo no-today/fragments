@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 4
+  per_page: 3
   order_by: top
 
 # Category & Tag
@@ -109,4 +109,4 @@ lazyload:
   onlypost: false # optional
   loadingImg: /images/loading.gif # optional eg ./images/loading.gif
   isSPA: false # optional
-  preloadRatio: 10 # optional, default is 1
+  preloadRatio: 5 # optional, default is 1
