@@ -23,6 +23,11 @@ top: 1
 
 - [I Know what your download](https://iknowwhatyoudownload.com/en/peer/) - 我知道你下载了什么, 追踪 ip 的 bt 下载列表
 - [ZeroTier](https://www.zerotier.com/) - 跨网段打隧道组建虚拟子网, 比如打通公司与家庭网络, 从公司访问家里的 Nas
+- [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) - DNS 服务器, 防劫持 & 广告过滤
+
+## resources
+
+- [安娜的档案](https://annas-archive.org/) - 电子书下载, 免登录
 
 ## 笔记
 
