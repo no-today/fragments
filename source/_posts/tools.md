@@ -54,3 +54,4 @@ top: 1
 
 - [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/) - 在线图片压缩, 也提供 API
 - [Receive SMS Online | Temporary SMS and Disposable Numbers](https://smsreceivefree.com/) - 免费的国外接码平台
+- [Idea filter](https://damngood.tools/tools/idea-filter) - 列出想法以及限制条件, 看想法是否具备可行性
