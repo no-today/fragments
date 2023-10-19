@@ -50,6 +50,12 @@ top: 1
 - [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) - 浏览器代理切换
 - [SingleFile](https://chrome.google.com/webstore/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle) - 把文件保存到一个文件中
 
+## mac platform
+
+- [Bob](https://bobtranslate.com/) - 划词翻译、截图翻译与截图 OCR
+- [Magnet](https://magnet.crowdcafe.com/) - 任务窗口管理
+- [Caffeinated](https://caffeinated.app/) - 让 Mac 保持唤醒状态
+
 ## others
 
 - [TinyPNG – Compress PNG images while preserving transparency](https://tinypng.com/) - 在线图片压缩, 也提供 API
