@@ -1,4 +1,5 @@
 .idea
 node_modules
+public
 db.json
 source/_posts/record-fragments/assets*
