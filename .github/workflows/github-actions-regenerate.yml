@@ -35,7 +35,7 @@ jobs:
           git config --local user.email "${{ env.GITHUB_EMAIL }}"
           git checkout --orphan ${{ env.ARCHIVE_BRANCH }}
           git rm -r --cached .
-          git add public/
+          git add -f public/
           git commit -m 'archive:'
           git push -f --set-upstream origin ${{ env.ARCHIVE_BRANCH }}
 
