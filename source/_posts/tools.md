@@ -1,12 +1,8 @@
 ---
 title: 好用的工具
 date: 2020-01-01
-top: 1
+top: 101
 ---
-
-工具清单
-
-<!--more-->
 
 ## dev tools
 
