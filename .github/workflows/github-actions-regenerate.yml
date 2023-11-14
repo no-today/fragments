@@ -9,6 +9,8 @@ env:
   GITHUB_NAME: no-today
   GITHUB_EMAIL: no.today@outlook.com
   ARCHIVE_BRANCH: archive
+  SSH_DEPLOY: 'false'
+  GIT_ARCHIVE: 'false'
 
 jobs:
   hexo-archive:
@@ -39,16 +41,19 @@ jobs:
           git commit -m 'archive:'
           git push -f --set-upstream origin ${{ env.ARCHIVE_BRANCH }}
 
-#      - name: Archive the "public" directory
-#        uses: actions/upload-artifact@v3
-#        with:
-#          name: public
-#          path: public
-#          retention-days: 5
+      # backup to archive
+      - name: Archive the "public" directory
+        if: env.GIT_ARCHIVE == 'true'
+        uses: actions/upload-artifact@v3
+        with:
+          name: public
+          path: public
+          retention-days: 5
 
       # ssh connect and exec command
       # document: https://github.com/appleboy/ssh-action
       - name: SSH Deploy
+        if: env.SSH_DEPLOY == 'true'
         uses: appleboy/ssh-action@v0.1.10
         with:
           host: ${{ secrets.SSH_HOST }}
