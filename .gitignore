@@ -1,5 +1,6 @@
 .idea
 node_modules
+.lock
 public
 db.json
 source/_posts/record-fragments/assets*
