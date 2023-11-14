@@ -2,7 +2,8 @@
 
 record my knowledge.
 
-- [好用的工具](source/_posts/tools.md)
-- [感兴趣的书籍](source/_posts/reads.md)
-- [阅读了的好文](source/_posts/articles.md)
-- [摘抄引用一些有意思的句子](source/_posts/quotes.md)
+## Thanks
+
+- [TinyPNG](https://tinypng.com/): image compression
+- [Cloudflare R2](https://developers.cloudflare.com/r2/examples/rclone/): assets storage
+- [Cloudflare Pages](https://developers.cloudflare.com/pages/): blog deploy
