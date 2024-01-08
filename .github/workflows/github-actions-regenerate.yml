@@ -9,8 +9,8 @@ env:
   GITHUB_NAME: no-today
   GITHUB_EMAIL: no.today@outlook.com
   ARCHIVE_BRANCH: archive
-  SSH_DEPLOY: 'true'
-  GIT_ARCHIVE: 'false'
+  SSH_DEPLOY: 'false'
+  GIT_ARCHIVE: 'true'
 
 jobs:
   hexo-archive:
